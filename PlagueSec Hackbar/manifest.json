@@ -1,0 +1,28 @@
+{
+  "name": "Plague-Sec Hackbar",
+  "description": "Plague Security",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["storage", "activeTab", "scripting"],
+   "action": {
+    "default_popup": "about.html",
+    "default_icon": {
+      "16": "/logo/plague-sec16.png",
+      "32": "/logo/plague-sec32.png",
+      "48": "/logo/plague-sec48.png",
+      "128": "/logo/plague-sec128.png"
+    }
+  },
+  "icons": {
+    "16": "/logo/plague-sec16.png",
+    "32": "/logo/plague-sec32.png",
+    "48": "/logo/plague-sec48.png",
+    "128": "/logo/plague-sec128.png"
+  },
+  "content_scripts":[{
+    "matches":["*://*/*"],
+    "css":["main.css"],
+    "js":["main.js"]
+  }]
+}
+
