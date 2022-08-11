@@ -1,0 +1,66 @@
+.PlagueSecHackbar{
+	border: 2px solid cyan;
+	font-family: monospace;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius:  15px;
+	background-color: #212121;
+	position: absolute;
+	padding: 10px;
+	z-index: 99999;
+	width: 98%;
+}
+.PlagueSecHackbar hr{border: 1px solid cyan}
+.PSH-Logo-Banner h1{
+	color: cyan;
+}
+.PSH-stage textarea{
+	font-size: 16px;
+	width: 90%;
+	height: 50px;
+	padding: 5px;
+}
+
+.stick{
+	position: fixed;
+}
+
+.PSH-btn-wrap{
+	user-select: none;
+}
+.PSH-btn-wrap button{
+	padding: 4px;
+	border: 1px solid white;
+	border-radius: 3px;
+}
+.PSH-btn-wrap button:hover{
+	background-color: rgb(0, 0, 0,0.5);
+}
+
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: rgb(255, 255, 255,0.5);
+}
+.psh-dropdown-wrap {
+  position: relative;
+  display: inline-block;
+}
+.psh-drop-down {
+	display: none;
+	position: absolute;
+	background-color: rgb(0, 0, 0,0.6);
+	min-width: 165px;
+}
+.psh-drop-down button {
+	width: 95%;
+	margin: 5px;
+	color: white;
+	font-weight: bold;
+	display: block;
+	padding: 6px;
+}
+.psh-drop-down button:hover {
+	color: black;
+	background-color: rgb(255, 255, 255,0.6);
+}
+.show {display:block;}
+
