@@ -35,3 +35,32 @@
 .PSH-btn-wrap button:hover{
 	background-color: rgb(0, 0, 0,0.5);
 }
+
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: rgb(255, 255, 255,0.5);
+}
+.psh-dropdown-wrap {
+  position: relative;
+  display: inline-block;
+}
+.psh-drop-down {
+	display: none;
+	position: absolute;
+	background-color: rgb(0, 0, 0,0.6);
+	min-width: 165px;
+}
+.psh-drop-down button {
+	width: 95%;
+	margin: 5px;
+	color: white;
+	font-weight: bold;
+	display: block;
+	padding: 6px;
+}
+.psh-drop-down button:hover {
+	color: black;
+	background-color: rgb(255, 255, 255,0.6);
+}
+.show {display:block;}
+
